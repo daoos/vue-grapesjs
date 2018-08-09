@@ -21,10 +21,7 @@ npm run lint
 ```
 # Vue-GrapesJS
 
-This project is an example of how to use Vue components in the Grapes Editor. This project is not finished yet and is not usable.
-
-There is one essential problem right now: 
-- The model is incorrect implemented. This leads to unusual behaviour inside the editor. 
+This project is an example of how to use Vue components in the Grapes Editor. Entry point is the `Grapes.vue` file where the grapes plugin is initialized. The plugin is heavily inspired by the grapes-mjml plugin by artf. 
 
 
 ## Dependencies
@@ -32,3 +29,7 @@ There is one essential problem right now:
 - Vue (2.5.16)
 - Vue-Router (3.0.1)
 - Vuetify (1.0.19)
+
+# License
+
+This software is licensed as MIT. 
