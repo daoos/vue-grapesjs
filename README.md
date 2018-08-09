@@ -32,4 +32,4 @@ This project is an example of how to use Vue components in the Grapes Editor. En
 
 # License
 
-This software is licensed as MIT. 
+This software is licensed as [MIT](https://github.com/Patrick-Spiegel/vue-grapesjs/blob/master/LICENSE.MD). 
