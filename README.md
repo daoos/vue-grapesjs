@@ -23,6 +23,11 @@ npm run lint
 
 This project is an example of how to use Vue components in the Grapes Editor. Entry point is the `Grapes.vue` file where the grapes plugin is initialized. The plugin is heavily inspired by the grapes-mjml plugin by artf. 
 
+## Demo
+
+You can preview the demo on codesandbox.
+[![Edit grapes-vue-minimal](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/93o55pkjzp)
+
 
 ## Dependencies
 - GrapesJS (0.14.25)
