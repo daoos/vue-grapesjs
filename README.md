@@ -26,6 +26,7 @@ This project is an example of how to use Vue components in the Grapes Editor. En
 ## Demo
 
 You can preview the demo on codesandbox.
+
 [![Edit grapes-vue-minimal](https://codesandbox.io/static/img/play-codesandbox.svg)](https://codesandbox.io/s/93o55pkjzp)
 
 
