@@ -73,7 +73,25 @@ export default {
         ' ' + prop + '="' + val + '"' : ''
     }
 
-    code += `<${tag}${strAttr}${sTag ? '/' : ''}>` + model.get('content')
+    let classes = "";
+    if (this.attributes.classes.models) {
+      for (let i = 0; i < this.attributes.classes.length; i++) {
+        if (classes == "") {
+          classes += 'class="';
+        } else {
+          classes += " ";
+        }
+        classes += this.attributes.classes.models[i].id;
+      }
+    }
+
+    if (classes != "") {
+      classes = " " + classes + '"';
+    }
+
+    code +=
+      `<${tag}${classes}${strAttr}${sTag ? "/" : ""}>` + model.get("content");
+
 
     model.get('components').each((model) => {
       code += model.toHTML()
